@@ -1,0 +1,201 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 80px;
+  background-color: #131E3A;
+}
+
+li {
+  float: left;
+}
+
+.ulfooter{
+	  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 300px;
+  background-color: #131E3A;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 23px 60px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #4ca2cb;
+    height: 80px;
+}
+
+.example_f {
+   border-radius: 4px;
+   background: linear-gradient(to right, #131E3A, #4ca2cb) ;
+   border: none;
+   color: #FFFFFF;
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 22px;
+   padding: 20px;
+   width: 200px;
+   transition: all 0.4s;
+   cursor: pointer;
+   margin: 5px;
+ }
+ .example_f span {
+   cursor: pointer;
+   display: inline-block;
+   position: relative;
+   transition: 0.4s;
+
+ }
+ .example_f span:after {
+   content: '\00bb';
+   position: absolute;
+   opacity: 0;
+   top: 0;
+   right: -20px;
+   transition: 0.5s;
+
+ }
+
+ .example_f:hover span {
+   padding-right: 25px;
+
+ }
+ .example_f:hover span:after {
+   opacity: 1;
+   right: 0;
+  
+ }
+
+ .box{ 
+ 	margin-left: 520px;
+ 	margin-top: 50px;
+	width:500px; 
+	height:300px; 
+		background:linear-gradient(to right, #131E3A, #4ca2cb) ;
+} 
+
+ .test{
+ 	 display: none;
+ }
+
+.test:hover{
+ 	 display: block;
+ }
+	
+.box:hover{
+margin-left: 220px;
+width:1000px; 
+} 
+
+.tasswira:hover + .test{
+	display: block;
+
+}
+
+
+.send {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #131E3A;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+
+  height: 80px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.send span {
+
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.send span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.send:hover span {
+  padding-right: 25px;
+}
+
+.send:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.reset {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: red;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+
+  height: 80px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.reset span {
+
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.reset span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.reset:hover span {
+  padding-right: 25px;
+}
+
+.reset:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid red;
+  background-color: #131E3A;
+  width: 300px;
+  border-radius: 3%;
+}
+ 
